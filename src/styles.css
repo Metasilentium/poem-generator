@@ -59,6 +59,10 @@ form {
   font-size: 16px;
 }
 
+.poem strong {
+  color: #f5c7f7;
+}
+
 footer {
   text-align: center;
   font-size: 13px;
