@@ -7,39 +7,44 @@
     <title>Poem Generator ✍️</title>
   </head>
   <body>
-    <header>
-      <h1>AI Poem Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter topic"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        The poem will go here
-        <br />
-        The poem will go here
-      </div>
-    </main>
+    <div class="container">
+      <header>
+        <h1>AI Poem Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter topic"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="button" />
+        </form>
+        <div class="poem">
+          The poem will go here
+          <br />
+          The poem will go here
+        </div>
+      </main>
 
-    <footer>
-      This project was coded by
-      <a href="https://github.com/Metasilentium">Michelle Otero</a> and is
-      open-sourced on
-      <a href="https://github.com/Metasilentium/poem-generator" target="_blank"
-        >GitHub</a
-      >
-      and is hosted on
-      <a href="https://poetic-faun-ebce2f.netlify.app" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/Metasilentium">Michelle Otero</a> and is
+        open-sourced on
+        <a
+          href="https://github.com/Metasilentium/poem-generator"
+          target="_blank"
+          >GitHub</a
+        >
+        and is hosted on
+        <a href="https://poetic-faun-ebce2f.netlify.app" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/script.js"></script>
   </body>
 </html>
