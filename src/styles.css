@@ -18,13 +18,23 @@ header {
   margin-bottom: 30px;
 }
 
-form {
-  padding: 30px;
+.form-container {
   background-color: #fff;
-  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
-  border-radius: 10px;
-  display: flex;
   margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  padding: 15px 20px;
+}
+
+form {
+  display: flex;
+}
+
+.hint {
+  line-height: 1.5;
+  font-size: 12px;
+  margin-top: 5px;
+  opacity: 0.6;
 }
 
 .instructions {
@@ -59,6 +69,9 @@ form {
   font-size: 16px;
 }
 
+.hidden {
+  display: none;
+}
 .poem strong {
   color: #f5c7f7;
 }
@@ -71,4 +84,13 @@ footer {
 
 a {
   color: #27296d;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+.blink {
+  animation: blink 1s steps(5, start) infinite;
 }
